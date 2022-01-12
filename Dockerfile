@@ -6,4 +6,3 @@ COPY index.html /var/www/localhost/htdocs/
 COPY styles.css /var/www/localhost/
 EXPOSE 80
 CMD ["/usr/sbin/httpd", "-DFOREGROUND"]
-ls -l
